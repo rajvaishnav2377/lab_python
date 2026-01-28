@@ -13,7 +13,7 @@ raj vaishanv
 	 india
 x="\n\t raj vaishanv \n\t flat no.101,sunshine apartment \n\t MG road,sector 15 \n\t rajkot \n\t pincode-360004 \n\t india"
 print(x)
-SyntaxError: multiple statements found while compiling a single statement
+
 x="\n\t raj vaishanv \n\t flat no.101,sunshine apartment \n\t MG road,sector 15 \n\t rajkot \n\t pincode-360004 \n\t india"
 print(x)
 
@@ -26,14 +26,12 @@ print(x)
 x=150
 y=120.50
 print("addition:",x+y)print("subtraction:",a-b)print("multiplication:",a*b)print("division:",a/b)
-SyntaxError: invalid syntax
 print("subtraction:",a-b)
 Traceback (most recent call last):
   File "<pyshell#10>", line 1, in <module>
     print("subtraction:",a-b)
-NameError: name 'a' is not defined
+
 print("addition:",x+y)print("subtraction:",x-y)print("multiplication:",x*y)print("division:",x/y)
-SyntaxError: invalid syntax
 print("addition:",x+y)
 addition: 270.5
 print("subtraction:",x-y)
@@ -55,8 +53,6 @@ x="perimeter of rectangle=2*(length)*(_"
 x="perimeter of rectangle=2*(length*width)"
 print(x)
 perimeter of rectangle=2*(length*width)
-x=
-SyntaxError: invalid syntax
 x="area of reatangle=length*eidth"
 print(x)
 area of reatangle=length*eidth
@@ -72,3 +68,4 @@ Area of square=side*side
 x="perimeter of square=4*side"
 print(x)
 perimeter of square=4*side
+
